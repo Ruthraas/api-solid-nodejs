@@ -1,7 +1,7 @@
 {
-  "name": "03-api-solid",
+  "name": "api-solid-nodejs",
   "version": "1.0.0",
-  "description": "GymPass style app.",
+  "description": "REST API for a GymPass-style application built with Node.js, Fastify, Prisma and SOLID principles.",
   "main": "index.js",
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
@@ -17,8 +17,15 @@
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "fastify",
+    "prisma",
+    "solid",
+    "rest-api"
+  ],
+  "author": "Arthur",
   "license": "ISC",
   "devDependencies": {
     "@rocketseat/eslint-config": "1.2.0",
